@@ -4,7 +4,9 @@ Paleta de colores
 
 */
 
-
+p{
+  text-align: justify;
+}
 body {
     background-color: #8d99ae;
   
