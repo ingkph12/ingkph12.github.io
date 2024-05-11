@@ -272,7 +272,7 @@ display: flex; /* Agrega display flex al contenedor */
 
   .draw-border:focus{
     box-shadow: inset 0 0 0 2px var(--cain);
-    background: var(--cain);
+    border-color: var(--cain);
     color: var(--gold);
     transition: color 0.30s 0.30s/3;
     position: relative;
