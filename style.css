@@ -79,13 +79,13 @@ body {
   }
   .bg-darki{
     background-color: #222;
-    box-shadow: #222 0px 0px 10px;
+    box-shadow: #000 0px 0px 10px;
   }
   .bg-darka{
     background-color: #edf2f4;
   }
   .bg-darkb{
-    background-color: #444 ;
+    background-color: #333 ;
     box-shadow: #222 0px 0px 10px;
   }
   
@@ -272,7 +272,7 @@ display: flex; /* Agrega display flex al contenedor */
 
   .draw-border:focus{
     box-shadow: inset 0 0 0 2px var(--cain);
-    back-ground: var(--cain);
+    background: var(--cain);
     color: var(--gold);
     transition: color 0.30s 0.30s/3;
     position: relative;
