@@ -3,19 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <!-- favi icon -->
+    <link rel="icon" type="image/png" href="util/img/Jdev2.png">
+    <title>JDev-Portfolio</title>
+    
+
     
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+    
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid bg-darka p-0">
+  <div class="container-fluid bg-darkx p-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="util/img/Jdev2.png" alt="logo" style="width: 120px; height: auto;">
+              <a class="navbar-brand m-0" href="#">
+                <img src="util/img/Jdev2.png" alt="logo"class="img-fluid " style="width: 130px; height: 80px;">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,6 +38,10 @@
                     <a class="nav-link" href="#habilidades">Habilidades</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
+                  </li>
+                  
+                  <li class="nav-item">
                     <a class="nav-link" href="#portafolio">Portafolio</a>
                   </li>
                   <li class="nav-item">
@@ -45,133 +55,189 @@
             </div>
           </nav>
           <!-- Presentacion -->
-<div class="container-fluid portada" id="inicio">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="content">
-            <p class="text-white display-5 typewriter">soluciones, diseño, análisis.</p>
+          <div class="container-fluid portada destino row d-flex justify-content-center align-content-center" id="inicio">
+            <div class="col-md-12 d-flex justify-content-center" style="height: 70px; max-width: 690px;">
+              <p class="text-white display-5 text-center typewriter">
+                <span>soluciones</span>
+                <span>,</span>
+                <span> diseño</span>
+                <span>,</span>
+                <span> análisis</span>
+                <span>.</span>
+              </p>
             </div>
-        </div>
-        <div class="col-md-12">
-            <h1 class="text-center text-white display-1 titulo">Desarrollo Web</h1>
-        </div>
-    </div>
-</div>
-          <!--Acerca de mi -->
-<div class="container-fluid bg-darki text-white">
-    <section class="about-section" id="yo">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 text-white">
-              <img src="util/img/prueba.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-6 text-white justify-content-center">
-              <h2>¡Hola, soy José Enrique!</h2>
-              <p>Soy un desarrollador web entusiasta con una pasión por la creación de experiencias digitales sorprendentes. Mi objetivo es combinar creatividad, funcionalidad y rendimiento en cada proyecto en el que trabajo.</p>
-              <p>Con experiencia en tecnologías como HTML, CSS, JavaScript, y frameworks como Bootstrap y React, estoy constantemente aprendiendo y explorando nuevas herramientas para mejorar mis habilidades y ofrecer soluciones innovadoras.</p>
-              <p>Además de codificar, disfruto colaborar en equipos multidisciplinarios, resolver problemas complejos y enfrentar desafíos creativos. Estoy emocionado de trabajar en proyectos emocionantes que impulsen la web hacia el futuro.</p>
-              <div class="d-flex justify-content-center p-2 ">
-              <img src="util/img/codificacion.png" class="img-fluid" style="height: 175px;" width="175px;" alt="">
-              </div>
+            <div class="col-md-12">
+              <h1 class="text-center align-text-center text-white display-1">Desarrollador Web</h1>
             </div>
           </div>
+          <!--Acerca de mi -->
+<div class="container bg-darkx text-white p-3">
+    <section class="about-section destino" id="yo">
+        <div class="container row">
+          
+            <div class="col-lg-6 text-white d-flex justify-content-center " style="max-height: 500px;">
+              <div class="row">
+                  <div class="col-md-12">
+                    <img src="util/img/avatar0.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md-12 d-flex justify-content-center">
+                    
+                    <a class="iconos" target="_blank" href="util/CV.pdf"><img class=" " src="util/img/CV.png" alt="cv icon" style="color:var(--gold);max-width: 50px; max-height: 50px"></a>
+                      
+                  
+                        
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 text-white justify-content-center">
+              <h2 class="show">¡Hola, soy José Enrique!</h2>
+              <details name="summary">
+              
+              <summary class="summary resaltado">
+              Acerca de mi
+              </summary>
+              <p style="text-indent: 32px;">Ingeniero en eléctricidad, con un espíritu emprendedor y un apetito por el aprendizaje constante, me he desempeñado como desarrollador web. Con <a class="resaltado" href="">experiencia</a> en el desarrollo de funciones y aplicaciones web tanto en el front-end como en el back-end, con mis <a class="resaltado" href="#servicios">servicios</a> me interesa crear soluciones innovadoras y efectivas para clientes y sistemas.</p>
+
+              <p>Enfocado en los detalles y la funcionalidad , tengo un gusto por los <a href="#portafolio" class="resaltado">diseños</a> e interfaces de usuario atractivas y fáciles de usar. Siempre dispuesto para trabajar en equipo, seguro de poder aportar mis habilidades e ideas para cumplir las metas y objetivos, pero también capaz de asumir retos individuales para llevar a cabo proyectos de manera eficiente.</p>
+              <p> Sin miedo a tecnologías nuevas, mi objetivo personal es ampliar las <a class="resaltado" href="#habilidades">herramientas y habilidades</a> para afinar mi conocimiento en el desarrollo de sistemas web.   </p>
+            </details>
+              <div class="description p-2 mt-4 ">
+                
+                <h3 class="text-center   ">Habilidades</h3>
+
+                <div class=" about-section  p-2">
+                    
+                    <ul class="list-group ">
+                      <li class="list-group-item">Diseño y maquetación de páginas web</li>
+                      <li class="list-group-item">Interfaces de usuario sistemas administrativos CRM</li>
+                      <li class="list-group-item">Creacion de componentes y funciones (react)</li>
+                      <li class="list-group-item">Fetch API o Axios</li>
+                      <li class="list-group-item">Manejar base de datos relacionadas con PHP y MySQL</li>
+                      <li class="list-group-item">Funciones para sistemas CRM, administrativos y de operaciones</li>
+                    </ul>
+                </div>
+
+              </div> 
+
+            </div>
+          
         </div>
       </section>
+            <div class="col-md-12 col-lg-12 d-flex justify-content-center p-2">
+                    <h3 class="text-center  p-3">Herramientas</h3>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-lg-12 d-flex flex-wrap justify-content-center mt-4">
+                <img src="util/img/html-5.png" class="iconos m-2 fadeIn" data-wow-delay="0.1s" alt="html-5">
+                <img src="util/img/css-3.png" class="iconos m-2 fadeIn" data-wow-delay="0.2s" alt="css">
+                <img src="util/img/js.png" class="iconos m-2 fadeIn" data-wow-delay="0.3s" alt="javascript">
+                <img src="util/img/bootstrap.png" class="iconos m-2 fadeIn" data-wow-delay="0.4s" alt="boostrap">
+                <img src="util/img/php.png" class="iconos m-2 fadeIn" data-wow-delay="0.5s" alt="php">
+                <img src="util/img/mysql.png" class="iconos m-2 fadeIn" data-wow-delay="0.6s" alt="mysql">
+                <img src="util/img/datatables.png" class="iconos m-2 fadeIn" data-wow-delay="0.7s" alt="datatables">
+                <img src="util/img/github.png" class="iconos m-2 fadeIn" data-wow-delay="0.8s" alt="github">
+                <img src="util/img/VSC.png" class="iconos m-2 fadeIn" data-wow-delay="0.9s" alt="VSC">
+                <img src="util/img/react.png" class="iconos m-2 fadeIn" data-wow-delay="1s" alt="react">
+              </div>
+            </div>
+             
+          
+
+      </div> <!-- /.row -->
+  
+  
+
+<!--Experiencia-->
+<div class="container timeline-container p-4" id="experiencia">
+  <h2 class="mt-2  show">Experiencia</h2>
+  <h3 class="text-center ">Freelancer</h3>
+
+  <div class="wrapper ">
+  <div class="center-line">
+    <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+  </div>
+  <div class="row row-1">
+    <section class="expSection">
+      <i class="icon fas fa-home"></i>
+      <div class="details">
+        <span class="title">MTI </span>
+        <span> 2022</span>
+      </div>
+      <p> Colaboracion en el desarrollo de pagina web. HTLM 5 y CSS</p>
+      <div class="text-end">
+        <i>Freelancer</i>
+      </div>
+    </section>
+  </div>
+  <div class="row row-2">
+    <section class="expSection">
+      <i class="icon fas fa-star"></i>
+      <div class="details">
+        <span class="title">Calinstrexa</span>
+        <span>2022</span>
+      </div>
+      <p>Colaboracion en el front de pagina web. HTLM 5 , javascript y CSS</p>
+      <div class="text-end">
+        <i>Freelancer</i>
+      </div>
+    </section>
+  </div>
+  <div class="row row-1">
+    <section class="expSection">
+      <i class="icon fas fa-rocket"></i>
+      <div class="details">
+        <span class="title">Línea Italiana MX.</span>
+        <span>Junio 2023 - Diciembre 2023</span>
+      </div>
+      <p>Desarrollo de funciones , aplicaciones y fix service en sistemas administrativos de compras , ordenes y usuarios. desarrollo en PHP , javascript, MySQL, HTLM5, Bootstrap, CSS, DataTable</p>
+      <div class="text-end">
+        <i>Junior</i>
+      </div>
+    </section>
+  </div>
+  <div class="row row-2">
+    <section class="expSection">
+      <i class="icon fas fa-globe"></i>
+      <div class="details">
+        <span class="title">Alleanza - Staffing </span>
+        <span>Enero - Febrero 2024</span>
+      </div>
+      <p>Diseño y maquetación de pagina web, diseño y aplicacion de funciones del crm de usuarios y servicios. HTML5 , CSS, JavaScript  .</p>
+      <div class="text-end">
+        <i>Freelancer</i>
+      </div>
+    </section>
+  </div>
+  <div class="row row-1">
+    <section class="expSection">
+      <i class="icon fas fa-paper-plane"></i>
+      <div class="details">
+        <span class="title">Alleanza - Insurance</span>
+        <span>Marzo 2024</span>
+      </div>
+      <p>Diseño y maquetación de pagina web, Landing Page HTML5 , CSS, JavaScript, Boostrap 5  .</p>
+      <div class="text-end">
+        <i>Freelancer</i>
+      </div>
+    </section>
+  </div>
+  
 </div>
-    <!--Habilidades-->
-<div class="container-fluid p-3" id="habilidades">
-    <div class="container">
-        <div class="row bg-darkb p-3">
-            <div class="col-md-5">
 
-                <div class="description p-3">
-                
-                    <h3 class="text-center ">Habilidades</h3>
 
-                    <div class=" about-section  p-2">
-                        <p>Por experiencia y habilidades,
-                            se destaca en el front-end con diseño y maquetación de páginas web y interfaces de usuario para CRM y sistemas administrativos. También incluye experiencia en la conexión de páginas y sistemas con APIs y el uso de Fetch API. En el back-end, se resalta la capacidad para manejar datos con PHP y MySQL, así como el desarrollo de funciones para sistemas CRM, administrativos y de operaciones.
-                        </p>
-                       
-                    </div>
+</div>
 
-                </div> <!-- /.description -->
 
-            </div>
-                            
-            <div class="col-md-7 bg-darki p-2 pb-3 mb-3">
-
-                <div class="skills-subsection text-light">
-                
-                    <h4 class="text-center text-white p-2 mb-2">Skills</h4>
-
-                    <p class=" m-2">Maquetacion</p>
-
-                    <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
-                        <span class="">95% Complete</span>
-                    </div>
-                    </div>
-
-                    <p class="m-2">Diseño</p>
-
-                    <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
-                        <span class="">78% Complete</span>
-                    </div>
-                    </div>
-                    <p class="m-2">Ui & Ux</p>
-
-                    <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
-                        <span class="">78% Complete</span>
-                    </div>
-                    </div>
-
-                    <p class="m-2">Enlaces</p>
-
-                    <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 88%;">
-                        <span class="">88% Complete</span>
-                    </div>
-                    </div>
-
-                    <p class="m-2">Base de Datos</p>
-
-                    <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 84%;">
-                        <span class="">84% Complete</span>
-                    </div>
-                    </div>
-
-                </div> <!-- /.skills-subsection -->
-
-            </div>
-
-            
-            <div class="col-md-12">
-                <h3 class="text-center  p-2">Herramientas</h3>
-            </div>
-            <div class="col-md-12 text-center p-2">
-                    <img src="util/img/html-5.png" class="iconos m-2 " alt="html-5">
-                    <img src="util/img/css-3.png" class="iconos m-2" alt="css">
-                    <img src="util/img/js.png"  class="iconos m-2" alt="javascript">
-                    <img src="util/img/bootstrap.png" class="iconos m-2"   alt="">
-                    <img src="util/img/php.png" class="iconos m-2" alt="react">
-                    <img src="util/img/mysql.png" class="iconos m-2" alt="react">
-                    <img src="util/img/datatables.png" class="iconos m-2" alt="react">
-                    <img src="util/img/github.png" class="iconos m-2" alt="react">
-                    <img src="util/img/VSC.png" class="iconos m-2" alt="react">
-            </div>
-        </div> <!-- /.row -->
     
-    </div>
-</div>
+
     <!--Portafolio-->
-<div class="container-fluid bg-darkb p-4" id="portafolio">
-    
-        <div class="container bg-darki mb-2">
-            <h2 class="text-center nav-item p-2" style="color: #d90429;">Portfolio</h2>
+<div class="container-fluid  p-4 destino" id="portafolio">
+
+  
+
+        <div class="container-fluid bg-darki mb-2">
+            <h2 class="text-center nav-item  show p-2" style="color: var(--cain);">Portafolio</h2>
         <div class="row m-3 p-2 text-center">
             <div class="col-md-12 p-2">
                 <div id="filterButtons" class="fs-4" role="group" aria-label="Filter Buttons">
@@ -185,109 +251,159 @@
             </div>
         </div>
 
-        <div id="imageGallery" class="row p-2 ">
+        <div id="imageGallery" class="row imageGallery p-2 ">
+          
 
             <div class="col-md-4 portfolioImage landing work">
-              <div class="imageContainer justify-content-center ">
+              <div class="imageContainer justify-content-center "  data-toggle="tooltip"  data-bs-html="true" title='
+              <div class="container-fluid" style="background: #222; width: 100px; height: 100px;">
+                <div class="row">
+                    
+                    <div class="" style="background: var(--cain);"><h6 class="text-center text-white">Alleanza Staffing</h6></div>
+                    <div class="">Web Site</div>
+                </div>
+              </div>'>
+                  <a href="https://www.alleanzastaffing.com/" target="_blank">
                   <img src="util/img/portafolio/Alleanza-Staffing/AlleanzaStaffing.jpg"  alt="Image 3">
-                  <div class="imageTitle text-center">
+                  </a>
+                  <!-- <div class="imageTitle text-center">
                       <h5>Alleanza Staffing</h5>
                       <p>web site</p>
-                  </div>
+                  </div> -->
               </div>
           </div>
 
           
           <div class="col-md-4 portfolioImage crm work ">
-            <div class="imageContainer justify-content-center ">
-                <img src="util/img/portafolio/Alleanza-Staffing-CRM/AlleanzaStaffing-Login.jpg"  alt="Image 3">
-                <div class="imageTitle text-center">
-                    <h5>Alleanza Staffing CRM</h5>
-                    <p>CRM Site</p>
+            <div class="imageContainer justify-content-center "  data-toggle="tooltip"  data-bs-html="true" title='
+              <div class="container-fluid" style="background: #222; width: 100px; height: 100px;">
+                <div class="row">
+                    
+                    <div class="" style="background: var(--cain);"><h6 class="text-center text-white">Alleanza Staffing</h6></div>
+                    <div class="">CRM</div>
                 </div>
+              </div>'>
+                <img src="util/img/portafolio/Alleanza-Staffing-CRM/AlleanzaStaffing-Login.jpg"  alt="Image 3">
+               
             </div>
           </div>
 
           <div class="col-md-4 portfolioImage landing work">
-            <div class="imageContainer justify-content-center ">
+            <div class="imageContainer justify-content-center "  data-toggle="tooltip"  data-bs-html="true" title='
+            <div class="container-fluid" style="background: #222; width: 100px; height: 100px;">
+              <div class="row">
+                  
+                  <div class="" style="background: var(--cain);"><h6 class="text-center text-white">Alleanza Insurance</h6></div>
+                  <div class="">Web Site</div>
+              </div>
+            </div>'>
+              <a href="https://tukeque.com/alleanzainsurance/en/index.php" target="_blank">
                 <img src="util/img/portafolio/Alleanza-Insurance/AlleanzaInsurance.jpg"  alt="Image 3">
-                <div class="imageTitle text-center">
-                    <h5>Alleanza Insurance</h5>
-                    <p>web site</p>
-                </div>
+              </a>
             </div>
         </div>
 
         <div class="col-md-4 portfolioImage landing practice work">
-          <div class="imageContainer justify-content-center ">
-              <img src="util/img/portafolio/practices/Freya-web-practice.jpg"  alt="Image 3">
-              <div class="imageTitle text-center">
-                  <h5>Freya</h5>
-                  <p>web site - practice</p>
+          <div class="imageContainer justify-content-center "  data-toggle="tooltip"  data-bs-html="true" title='
+            
+              <div class="row">
+                  
+                  <div class="" style="background: var(--cain);"><h6 class="text-center text-white">Freya</h6></div>
+                  <div class="">Web Site - beta</div>
               </div>
+               '>
+              <img src="util/img/portafolio/practices/Freya-web-practice.jpg"  alt="Image 3">
+              
           </div>
         </div>
 
         
         <div class="col-md-4 portfolioImage crm work function practice">
-          <div class="imageContainer justify-content-center ">
+          <div class="imageContainer justify-content-center "  data-toggle="tooltip"  data-bs-html="true" title='
+          <div class="container-fluid" style="background: #222; width: 100px; height: 100px;">
+            <div class="row">
+                
+                <div class="" style="background: var(--cain);"><h6 class="text-center text-white">Freya</h6></div>
+                <div class="">CRM - en beta</div>
+            </div>
+          </div>'>
               <img src="util/img/portafolio/practices/Freya-login-funcional.jpg"  alt="Image 3">
-              <div class="imageTitle text-center">
-                  <h5>Freya-Login</h5>
-                  <p>login funcional - practice</p>
-              </div>
+              
           </div>
         </div>
 
         <div class="col-md-4 portfolioImage practice function ">
-          <div class="imageContainer justify-content-center ">
-              <img src="util/img/portafolio/practices/Crud-Table.jpg"  alt="Image 3">
-              <div class="imageTitle text-center">
-                  <h5>CRUD Funcional</h5>
-                  <p>Practice: Funciones de eliminar, agregar y editar elementos de base de datos en un CRUD.</p>
-              </div>
+          <div class="imageContainer justify-content-center "  data-toggle="tooltip"  data-bs-html="true" title='
+          <div class="container-fluid" style="background: #222; width: 100px; height: 100px;">
+            <div class="row">
+                
+                <div class="" style="background: var(--cain);"><h6 class="text-center text-white">CRUD</h6></div>
+                <div class="">PHP - Datatable</div>
+            </div>
+          </div>'>
+              <img src="util/img/portafolio/practices/Crud-Table.jpg"  alt="crud practice">
+              
           </div>
         </div>
 
         <div class="col-md-4 portfolioImage function work ">
-          <div class="imageContainer justify-content-center ">
-              <img src="util/img/portafolio/practices/Crud-Table-2.jpg"  alt="Image 3">
-              <div class="imageTitle text-center">
-                  <h5>CRUD Funcional</h5>
-                  <p>CRUD - trabajo freelance</p>
-              </div>
+          <div class="imageContainer justify-content-center "  data-toggle="tooltip"  data-bs-html="true" title='
+          <div class="container-fluid" style="background: #222; width: 100px; height: 100px;">
+            <div class="row">
+                
+                <div class="" style="background: var(--cain);"><h6 class="text-center text-white">Trabajo en Workana</h6></div>
+                <div class="">PHP - DATATABLE</div>
+            </div>
+          </div>'>
+              <img src="util/img/portafolio/practices/Crud-Table-2.jpg"  alt="Crud work">
+              
           </div>
         </div>
 
         <div class="col-md-4 portfolioImage landing work">
-          <div class="imageContainer justify-content-center ">
-              <img src="util/img/portafolio/calinstrexa/calinstrexa.jpg"  alt="Image 3">
-              <div class="imageTitle text-center">
-                  <h5>Calinstrexa</h5>
-                  <p>web site</p>
-              </div>
+          <div class="imageContainer justify-content-center "  data-toggle="tooltip"  data-bs-html="true" title='
+          <div class="container-fluid" style="background: #222; width: 100px; height: 100px;">
+            <div class="row">
+                
+                <div class="" style="background: var(--cain);"><h6 class="text-center text-white">Calinstrexa</h6></div>
+                <div class="">Web Site</div>
+            </div>
+          </div>'>
+          <a href="https://www.calinstrexa.com.mx/" target="_blank">
+              <img src="util/img/portafolio/calinstrexa/calinstrexa.jpg"  alt="calinstrexa index">
+            </a>
           </div>
       </div>
 
       <div class="col-md-4 portfolioImage landing work">
-        <div class="imageContainer justify-content-center ">
+        <div class="imageContainer justify-content-center "  data-toggle="tooltip"  data-bs-html="true" title='
+        <div class="container-fluid" style="background: #222; width: 100px; height: 100px;">
+          <div class="row">
+              
+              <div class="" style="background: var(--cain);"><h6 class="text-center text-white">MTI</h6></div>
+              <div class="">Web Site</div>
+          </div>
+        </div>'>
+          <a href="https://mti-us.com/" target="_blank">
             <img src="util/img/portafolio/MTI-WEB/MTI-WEB.jpg"  alt="Image 3">
-            <div class="imageTitle text-center">
-                <h5>MTI</h5>
-                <p>web site</p>
-            </div>
+          </a>
         </div>
     </div>
 
     <div class="col-md-4 portfolioImage function practice">
-      <div class="imageContainer justify-content-center ">
-          <img src="util/img/portafolio/practices/top-five-practice.jpg"  alt="Image 3">
-          <div class="imageTitle text-center">
-              <h5>Top Five Practice</h5>
-              <p>web site - practice js Drag-drop</p>
-          </div>
+      <div class="imageContainer justify-content-center "  data-toggle="tooltip"  data-bs-html="true" title='
+      <div class="container-fluid" style="background: #222; width: 100px; height: 100px;">
+        <div class="row">
+            
+            <div class="" style="background: var(--cain);"><h6 class="text-center text-white">DRAG & DROP</h6></div>
+            <div class="">JS practica</div>
+        </div>
+      </div>'>
+        <a href="https://topfiveleagues.com/" target="_blank">
+          <img src="util/img/portafolio/practices/top-five-practice-2.jpg"  alt="Image 3">
+        </a>
       </div>
-  </div>
+    </div>
 
       
 
@@ -298,12 +414,13 @@
     <!-- productos servicios -->
 
     <!-- MODALES DE SERVICIOS -->
+
     <!-- Modal 1: Paquete de servicios de diseño de sitio web -->
 <div class="modal fade" id="modalDiseñoSitioWeb" tabindex="-1" aria-labelledby="modalDiseñoSitioWebLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalDiseñoSitioWebLabel">Diseño de sitio web</h5>
+          <h5 class="modal-title text-center" id="modalDiseñoSitioWebLabel">Diseño de sitio web</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -317,7 +434,7 @@
           </ul>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn-lighte px-3" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
@@ -327,7 +444,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalDiseñoLogoLabel">Diseño de logo</h5>
+          <h5 class="modal-title text-center" id="modalDiseñoLogoLabel">Diseño de logo</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -341,7 +458,7 @@
           </ul>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class=" btn-lighte px-3" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
@@ -351,7 +468,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalDesarrolladorCRMLabel">Desarrollador de CRM y sistemas administrativos</h5>
+          <h5 class="modal-title text-center" id="modalDesarrolladorCRMLabel">Desarrollador de CRM y sistemas administrativos</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -365,7 +482,7 @@
           </ul>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class=" btn-lighte px-3" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
@@ -376,7 +493,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalMantenimientoWebLabel">Servicio de mantenimiento web</h5>
+          <h5 class="modal-title text-center" id="modalMantenimientoWebLabel">Servicio de mantenimiento web</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -390,7 +507,7 @@
           </ul>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class=" btn-lighte px-3" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
@@ -401,7 +518,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalDesarrolloFuncionesLabel">Desarrollo de funciones y aplicaciones web y fix service</h5>
+          <h5 class="modal-title text-center" id="modalDesarrolloFuncionesLabel">Desarrollo de funciones y aplicaciones web y fix service</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -415,7 +532,7 @@
           </ul>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class=" btn-lighte px-3" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
@@ -425,7 +542,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="modalFixServiceLabel">Fix Service</h5>
+          <h5 class="modal-title text-center" id="modalFixServiceLabel">Fix Service</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -441,20 +558,20 @@
           <p>Si tienes alguna pregunta específica sobre el servicio de fix service, no dudes en preguntar. Estamos aquí para ayudarte.</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class=" btn-lighte px-3" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
   </div>
-
-    <div class="container-fluid p-5 " id="servicios">
-        <h2 class="p-3">Servicios</h2>
+  <!-- Servicios -->
+    <div class="container-fluid p-5 destino" id="servicios">
+        <h2 class="p-3 show">Servicios</h2>
         
         <div class="container mt-2 p-4">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <div class="text-center mx-auto wow " data-wow-delay="0.1s" style="max-width: 600px;">
             </div>
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 wow " data-wow-delay="0.1s">
                     <div class="service-item">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-window-sidebar text-dark"></i>
@@ -464,7 +581,7 @@
                         <a class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#modalDiseñoSitioWeb">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4 col-md-6 wow " data-wow-delay="0.3s">
                     <div class="service-item">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-brush text-dark"></i>
@@ -474,7 +591,7 @@
                         <a class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#modalDiseñoLogo">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow " data-wow-delay="0.5s">
                     <div class="service-item">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-terminal"></i>
@@ -484,7 +601,7 @@
                         <a class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#modalDesarrolladorCRM">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow " data-wow-delay="0.5s">
                     <div class="service-item">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-wrench-adjustable text-dark"></i>
@@ -494,7 +611,7 @@
                         <a class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#modalMantenimientoWeb">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow " data-wow-delay="0.5s">
                     <div class="service-item">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-pc-display-horizontal text-dark"></i>
@@ -504,7 +621,7 @@
                         <a class="btn btn-light px-3" data-bs-toggle="modal" data-bs-target="#modalDesarrolloFunciones">Ver más<i class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow " data-wow-delay="0.5s">
                     <div class="service-item">
                         <div class="icon-box-primary mb-4">
                             <i class="bi bi-pencil-square text-dark"></i>
@@ -520,58 +637,95 @@
 
     </div>
 
-  <!--Contacto-->
-
-        
-   <div class="container-fluid bg-darki wow fadeIn" data-wow-delay=".3s">
-    <div class="container  py-2" id="contacto">
+  <!--Contacto-->   
+  <div class="container-fluid bg-darki wow fadeIn" data-wow-delay=".3s">
+    <div class="container  py-2 destino" id="contacto">
+      <div class="container">
         <div class="row g-4 justify-content-center p-4">
-            <h2 class="text-center  p-2" style="color: var(--cain);">Contacto</h2>
-            
-            
-            <div class="col-lg-4 fs-5 col-md-6 text-center">
-                    <a href="" class=" linked w-100 text-center text-white ps-0 "><i class="fa fa-map-marker-alt me-3"></i>Coro, Falcon, Venezuela</a>
+            <h2 class="text-center  show p-2" style="color: var(--cain);">Contacto</h2>
+            <iframe class="border-2 mape" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88496.69403181896!2d-69.7255768153308!3d11.404765995281082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e85d4c9ac76bbeb%3A0xa5e24cbe678ef3cf!2sCoro%204101%2C%20Falc%C3%B3n!5e0!3m2!1ses-419!2sve!4v1717898000068!5m2!1ses-419!2sve" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-lg-4  col-md-6 text-center">
+              <a  class=" linked w-100 text-center text-white ps-0 "  onclick="copiarContenidoUbicacion()"><i class="fa fa-map-marker-alt me-3"></i><spam id="ubicacion">Coro, Falcon, Venezuela</spam></a>
             </div>
-            <div class="col-lg-4 fs-5 col-md-6 text-center">
-                <a href="" class=" linked w-100 text-center text-white ps-0  "><i class="fa fa-phone-alt me-3"></i>+58 412 764 3498</a>
+            <div class="col-lg-4  col-md-6 text-center">
+                <a  class=" linked w-100 text-center text-white ps-0  " onclick="copiarContenidoTelefono()"><i class="fa fa-phone-alt me-3"></i><spam id="telefono">+58 412 764 3498</spam></a>
             </div>
-            <div class="col-lg-4 fs-5 col-md-6 text-center">
-                    <a href="" class=" linked w-100 text-center text-white ps-0  "><i class="fa fa-envelope me-3"></i>Josee.0097@gmail.com</a>
+            <div class="col-lg-4  col-md-6 text-center">
+                    <a  class=" linked w-100 text-center text-white ps-0  " onclick="copiarContenidoEmail()"><i class="fa fa-envelope me-3"></i><spam id="email">Josee.0097@gmail.com</spam></a>
             </div>
+           
             <div class="col-lg-12 p-4">
-                <div class="redes-sociales text-center display-5 ">
-                    <a href="https://www.whatsapp.com"><i class="fab fa-whatsapp btn-contact p-2"></i></a>
-                    <a href="https://www.instagram.com"><i class="fab fa-instagram btn-contact p-2"></i></a>
-                    <a href="https://www.facebook.com"><i class="fab fa-facebook btn-contact p-2"></i></a>
-                    <a href="https://www.linkedin.com"><i class="fab fa-linkedin btn-contact p-2"></i></a>
-                    <a href="https://www.twitter.com"><i class="fab fa-twitter btn-contact p-2"></i></a>
+                <div class="redes-sociales text-center display-6">
+                  
+                    <a href="https://wa.me/584127643498" target="_blank"><i class="fab fa-whatsapp btn-contact p-2"></i></a>
+                    <a href="https://www.instagram.com/jose.ecc/" target="_blank"><i class="fab fa-instagram btn-contact p-2"></i></a>
+                    <!-- <a href="https://www.facebook.com"><i class="fab fa-facebook btn-contact p-2"></i></a> -->
+                    <a href="https://www.linkedin.com/in/jose-enrique-chirino-carpio-34b667307/" target="_blank"><i class="fab fa-linkedin btn-contact p-2"></i></a>
+                    <a href="https://x.com/Jenriquecch?t=HxwW3Z3aYVmvhmAlJDcaaQ&s=09" target="_blank"><i class="fab fa-twitter btn-contact p-2"></i></a>
                 </div>
             </div>
+            
         </div>
     </div>
 </div>
-
-<div class="container-fluid copyright bg-dark py-2">
+</div>
+</div>
+<footer>
+<div class="container-fluid copyright justify-content-center align-content-center bg-dark py-2">
     <div class="container">
         <div class="row align-content-end">
             <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
-                <img src="util/img/Jdev2.png" class="img-fluid logo" style="width: 110px;" alt="Second slide">
+                <img src="util/img/Jdev2.png" class="img-fluid logo" style="width: 110px; height: 80px;" alt="Second slide">
                 
             </div>
-            <div class="col-md-4 copyright-btn text-white text-center align-content-end">
-                <p>&copy; 2024. All Rights Reserved. JDev</p>
+            <div class="col-md-4  text-white text-center align-content-center">
+                <span>&copy; 2024. realizado por JDev</span>
             </div>
 
         </div>
     </div>
 </div>
+</footer>
 
-</div>
 
 
-    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> -->
+<script>
+  function copiarContenidoUbicacion() {
+      var contenido = document.getElementById("ubicacion").innerText;
+      navigator.clipboard.writeText(contenido);
+      alert("Contenido copiado al portapapeles: " + contenido);
+  }
+
+  function copiarContenidoTelefono() {
+      var contenido = document.getElementById("telefono").innerText;
+      navigator.clipboard.writeText(contenido);
+      alert("Contenido copiado al portapapeles: " + contenido);
+  }
+
+  
+    function copiarContenidoEmail() {
+        var contenido = document.getElementById("email").innerText;
+        navigator.clipboard.writeText(contenido);
+        alert("Contenido copiado al portapapeles: " + contenido);
+    }
+
+</script>
+      
+
+<script>
+   $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+  </script>
+    
+
     <script>
         function filterImages(filterClass) {
             
@@ -605,7 +759,30 @@
         }
         });
 
-        
+
+
+
+
+
+
+// Función para activar el enlace al hacer clic
+function activarEnlaceAlClic(event) {
+  // Obtener el enlace clicado
+  const link = event.target;
+
+  // Eliminar la clase activa de todos los enlaces
+  navLinks.forEach(enlace => {
+    enlace.classList.remove('active');
+  });
+
+  // Agregar la clase activa al enlace clicado
+  link.classList.add('active');
+}
+
+// Agregar el evento de clic a los enlaces de la navbar
+navLinks.forEach(link => {
+  link.addEventListener('click', activarEnlaceAlClic);
+});
     </script>
 </body>
 </html>
