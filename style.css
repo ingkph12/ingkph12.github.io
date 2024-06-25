@@ -28,7 +28,7 @@ body {
     font-weight: 700;
     animation: slideInDown linear both;
     animation-timeline: view();
-    animation-range: entry 10% cover 70%;
+    animation-range: entry 10% cover 40%;
     
 
   }
@@ -114,6 +114,24 @@ h3 {
 
 
 /* Animaciones**************************************************** */
+
+@keyframes pulso {
+  0% {
+    transform: scale(1);
+  }
+  
+  50% {
+    transform: scale(1.1);
+  }
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+.resaltar-icono {
+  animation: pulso 1000ms infinite;
+}
 @keyframes progressBar {
   from {
     height: 0%;
@@ -661,7 +679,7 @@ margin-bottom: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   animation: fadeInUp linear both;
   animation-timeline: view();
-  animation-range: entry 10% cover 20%;
+  animation-range: entry 15% cover 35%;
 }
 
 .service-item::before {
